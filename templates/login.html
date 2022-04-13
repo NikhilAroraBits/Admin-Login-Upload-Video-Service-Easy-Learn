@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Easy Learn Login </title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
+    <!--<link rel="stylesheet" href="./assets/css/style.css">-->
+    <style>
+        .source{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+
+            <div class="source"><span>Admin Log in to Easy Learn</span></div>
+
+            <div class="form-body">
+                <h4 class="title">Admin Log in to Easy Learn App</h4>
+
+                <form action="" class="the-form" method = "post">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                    <input type="submit" value="Log In" name="Log In">
+
+                    <input type="submit" value="Sign up" name="Sign up">
+
+                </form>
+
+            </div>
+
+           
+
+        </div>
+    </div>
+
+</body>
+</html>
